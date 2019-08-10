@@ -67,7 +67,7 @@ def main():
     current_dt = datetime.datetime.now()
     print(current_dt.strftime("%Y-%m-%d"))
     updater = Updater('703281172:AAGCAZ5C7DNcGc3jZ1AkgOvCpFLG2ZgNHOg')
-    #'703281172:AAGCAZ5C7DNcGc3jZ1AkgOvCpFLG2ZgNHOg' SMUAI NEWS BOT API KEEP CONFIDENTIAL
+    # xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx SMUAI NEWS BOT API KEEP CONFIDENTIAL
     # updater = Updater('-1461874044_864054736242426387') ignore this, for debugging only
     dp = updater.dispatcher
     # dp.add_handler(CommandHandler('test', test)) ignore this
