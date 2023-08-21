@@ -25,7 +25,7 @@ def send_article(title, url, channel_monitoring_id, target_id, bot):
 def news_push(bot, job):
     bot.send_message(chat_id=-1001461874044, text="Pushing...", parse_mode=telegram.ParseMode.MARKDOWN)
     current_dt = datetime.datetime.now()
-    articles = get_article('https://newsapi.org/v2/everything?q="Artificial Intelligence"&sources=time,ars-technica,fortune,reuters,bbc-news,wired,next-big-future,techcrunch,techradar,recode&from=' + current_dt.strftime("%Y-%m-%d") + '&to=' + current_dt.strftime("%Y-%m-%d") + '&apiKey=87a00708b6ba4febaa222c75998a9fed', called_articles)
+    articles = get_article('https://newsapi.org/v2/everything?q="Artificial Intelligence"&sources=time,ars-technica,fortune,reuters,bbc-news,wired,next-big-future,techcrunch,techradar,recode&from=' + current_dt.strftime("%Y-%m-%d") + '&to=' + current_dt.strftime("%Y-%m-%d") + '&apiKey=xxxxxx', called_articles)
     # articles = get_article('https://newsapi.org/v2/everything?q=%22Artificial%20Intelligence%22&sources=bbc-news&from=2019-02-14&to=2019-02-15&apiKey=87a00708b6ba4febaa222c75998a9fed',
     #                       called_articles) ignore this, for debugging only
 
